@@ -14,4 +14,9 @@ public class WelComeRestController {
 	public String welcome() {
 		return "Welcome to SpringBootApp";
 	}
+	
+	@GetMapping("/greet")
+	public String greet() {
+		return "Greeting !!! from Infinite";
+	}
 }
